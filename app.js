@@ -11,7 +11,10 @@ app.set("view engine", "pug");
 
 // Routes definition
 app.get("/", (req, res) => {
-    res.render("index", { cache: true });
+    res.render("index");
+});
+app.get("/about", (req, res) => {
+    res.render("about");
 });
 
 // Server activation
