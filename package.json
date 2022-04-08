@@ -1,0 +1,9 @@
+{
+  "name": "pugman",
+  "version": "1.0.0",
+  "description": "Small NodeJS server for hosting PUG files",
+  "main": "index.js",
+  "scripts": {},
+  "author": "yfunk",
+  "license": "MIT"
+}
