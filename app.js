@@ -20,4 +20,4 @@ app.get("/about", (req, res) => {
 // Server activation
 app.listen(port, () => {
     console.log(`Listening to requests on http://localhost:${port}`);
-  });
+});
